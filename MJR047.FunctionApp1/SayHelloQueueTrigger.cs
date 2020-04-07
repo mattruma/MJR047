@@ -8,7 +8,6 @@ namespace MJR047.FunctionApp1
 {
     public static class SayHelloQueueTrigger
     {
-
         [FunctionName(nameof(SayHelloQueueTrigger))]
         public static async Task Run(
             [QueueTrigger("sayhello")]string queueItem,
